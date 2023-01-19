@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Define a class called Node"""
 
+
 class Node:
     """Node of a singly linked list.
     Private instance attribute: data:
@@ -28,7 +29,6 @@ class Node:
         if not isinstance(value, int):
             raise TypeError("data must be an integer")
         self.__data = value
-
 
     @property
     def next_node(self):
